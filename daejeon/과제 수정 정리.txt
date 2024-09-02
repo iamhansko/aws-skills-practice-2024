@@ -1,0 +1,17 @@
+1과제
+1. ALB의 Schema external에서 Internal로 수정
+2. 채점지 11-1에서 Node state summary에서 Node Active summary로 이름 변경
+3. 채점지 12번 항목을 스크립트 채점에서 수동채점으로 변경
+4. 문제지 12번 Load Balancer 항목에 "CloudFront 외에는 접근이 불가능하도록 구성합니다" 항목 제거
+5. 채점지 0번 항목에 "ap-northeast-2에서 채점을 진행합니다"라는 문구 추가   
+6. 채점용 스크립트 mark2.sh 제거
+
+2과제
+1. Cloud Governance 4-1 채점 항목 "aws configservice start-config-rules-evaluation --config-rule-names wsi-config-port" 제거
+2. Cloud Governance 4-1 채점 항목 "NON COMPLIANT" 출력 삭제 및 config 상태 조회 명령어 삭제
+3. Cloud Governance 4-1 채점지 및 스크립트 sleep 명령어 140을 180으로 수정
+4. Cloud Governance 4-3 채점 항목 "최대 3분까지 기다린 후 입력할 수 있습니다." 텍스트 삭제
+5. Cloud Governance 4-3 채점스크립트 sleep 명령어 140 삭제
+6 EKS Observability 6-1 채점 항목 /wsi/eks/log에서 /wsi/eks/log/로 변경
+7 EKS Observability 과제지에 Alter Log Format에 대해서 부가적인 설명 추가
+8 EKS Observability 과제지 중앙 집중식 로깅 방식이라고 명시된 부분 Sidecar Pattern으로 변경
